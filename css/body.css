@@ -1,0 +1,42 @@
+.body{
+	background:#171941;
+}
+.full{
+	min-width:100vw;
+	min-height:100vh;
+}
+.fitdiv{
+	width:100%;
+	height:100%;
+}
+
+/* ABOUT PAGE */
+.aboutPage{
+	background:#171941;
+	display:flex;
+	color:white;
+	padding:20px;
+}
+.descriptionPanel1{
+	background:1d1e28;
+	min-width:40%;
+	text-align:center;
+	margin:auto;
+}
+.descriptionPanel2{
+	margin:auto;
+}
+@media only screen and (max-width:755px){
+	.aboutPage{
+		flex-direction:column;
+	}
+	.descriptionPanel1{
+		width:100%;
+	}
+}
+
+/* CONTACT US PAGE */
+
+.contact_board{
+	background:#171941;
+}
