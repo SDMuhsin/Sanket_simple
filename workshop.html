@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+	<head>
+		<link href="https://fonts.googleapis.com/css?family=Poppins|Roboto" rel="stylesheet">
+		<link rel = "stylesheet" href = "css/workshop.css">
+	</head>
+	<body>
+		<div class = "banner">
+			<div class = "heading">WORKSHOPS</div>
+		</div>
+		<div class = "board">
+			<div class = "card">
+				<div class = "content" id = "one">		
+					<div class = "top"></div>
+					
+					<div class = "half"><img src = "http://www.stickpng.com/assets/images/587549c11063eb350d61bef6.png"></div>
+					<div class = "cardTitle">VIRTUAL REALITY</div>
+					<div class = "vm" onClick = "openModal()" >DETAILS</div>
+				
+					<div class = "buttons"><div class = "vm prev" onClick = "prev()"><</div><div class = "vm next" onClick = "next()" >></div></div>
+				</div>
+				<div class = "hide" id = "two">
+					<div class = "top"></div>
+					
+					<div class = "half"><img src = "https://i1.wp.com/streamdata.io/wp-content/uploads/2018/07/Augmented-reality-book.png?fit=1200%2C797&ssl=1"></div>
+					<div class = "cardTitle">AUGMENTED REALITY</div>
+					<div class = "vm" onClick = "openModal()">DETAILS</div>
+				
+					<div class = "buttons"><div class = "vm prev" onClick = "prev()"><</div><div class = "vm next" onClick = "next()" >></div></div>
+				</div>
+				</div>
+			</div>
+		</div>
+	
+	
+	</body>
+	<div class = "hide" id = "modalone">
+		<div class = "subModal">
+			<div class = "close" style = "display:flex;justify-content:flex-end"><div class = "closebutton" onClick = "closeModal()">x</div></div>
+			<div class = "content">
+				<div class = "left"><img src = "https://i1.wp.com/streamdata.io/wp-content/uploads/2018/07/Augmented-reality-book.png?fit=1200%2C797&ssl=1">
+					<ul style = "list-style:none;padding:5px;width:100%">
+						<li></li>
+						<li><div style = "width:100%">Venue</div><div style = "width:100%">NIT Calicut</div></li>
+						<li><div style = "width:100%">Date</div><div style = "width:100%">February 23,24</div></li>
+						<li><div style = "width:100%">Team size</div><div style = "width:100%">4</div></li>
+						<li><div style = "width:100%">Registration fee</div><div style = "width:100%">RS 1000</div></li>
+					</ul>
+				</div>
+				<div class = "right" style = "display:flex;flex-direction:column;align-items:center">
+					<h2 style = "border-bottom:2px solid #eee;text-align:center"> AUGMENTED REALITY </h2>
+					<p>The cards have changed, and Argumated Reality is getting more real everyday. To ensure the smooth transition into the world of AR, we are offering you Hands on workshop on AR Technology. The workshop will be started off with basics of game development using Unity engine and then progress into Android studio and Vuforia SDK, for image tracking and 3D shooting using green mat. Introduction to C# programming for scripting player data and UI connection. 
+PREREQUISITES Participants should bring there own laptop with the necessary softwares pre installed (which will be informed upon registration).</p>
+				</div>
+			</div>
+		</div>
+	</div>	
+	<div class = "hide" id = "modaltwo">
+		<div class = "subModal">
+			<div class = "close" style = "display:flex;justify-content:flex-end"><div class = "closebutton" onClick = "closeModal()">x</div></div>
+			<div class = "content">
+				<div class = "left"><img src = "https://i1.wp.com/streamdata.io/wp-content/uploads/2018/07/Augmented-reality-book.png?fit=1200%2C797&ssl=1">
+					<ul style = "list-style:none;padding:5px;width:100%">
+						<li></li>
+						<li><div style = "width:100%">Venue</div><div style = "width:100%">NIT Calicut</div></li>
+						<li><div style = "width:100%">Date</div><div style = "width:100%">February 23,24</div></li>
+						<li><div style = "width:100%">Team size</div><div style = "width:100%">4</div></li>
+						<li><div style = "width:100%">Registration fee</div><div style = "width:100%">RS 1000</div></li>
+					</ul>
+				</div>
+				<div class = "right" style = "display:flex;flex-direction:column;align-items:center">
+					<h2 style = "border-bottom:2px solid #eee;text-align:center"> AUGMENTED REALITY </h2>
+					<p>The cards have changed, and Argumated Reality is getting more real everyday. To ensure the smooth transition into the world of AR, we are offering you Hands on workshop on AR Technology. The workshop will be started off with basics of game development using Unity engine and then progress into Android studio and Vuforia SDK, for image tracking and 3D shooting using green mat. Introduction to C# programming for scripting player data and UI connection. 
+PREREQUISITES Participants should bring there own laptop with the necessary softwares pre installed (which will be informed upon registration).</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<script src = "js/workshop.js"></script>
+</html>
