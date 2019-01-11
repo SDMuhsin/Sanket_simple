@@ -4,6 +4,7 @@ body{
 	padding:0;
 	background:#171941;
 	font-family: 'Roboto', sans-serif;
+	overflow-x:hidden;
 }
 .full{
 	min-width:100vw;
@@ -16,10 +17,11 @@ body{
 
 /* ABOUT PAGE */
 .aboutPage{
-	background:#171941;
+	background-image:linear-gradient( to top, #fff, #f6f6f6, #ededed);
 	display:flex;
-	color:white;
+	color:#141414;
 	padding:20px;
+	min-width:100vw;
 }
 .descriptionPanel1{
 	background:1d1e28;
